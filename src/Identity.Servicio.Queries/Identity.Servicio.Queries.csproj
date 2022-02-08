@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Servicio.Comun.Coleccion\Servicio.Comun.Coleccion.csproj" />
+    <ProjectReference Include="..\..\..\Servicio.Comun.Mapeo\Servicio.Comun.Mapeo.csproj" />
+    <ProjectReference Include="..\..\..\Servicio.Comun.Paginacion\Servicio.Comun.Paginacion.csproj" />
+    <ProjectReference Include="..\Identity.Persistencia\Identity.Persistencia.csproj" />
+  </ItemGroup>
+
+
+</Project>
